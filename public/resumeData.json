@@ -2,7 +2,7 @@
   "main": {
     "name":"Jyotiprakash",
     "description":"I am a web development engineer and I use react and nodejs to develop web-pages & React-Native to develope mobile apps.",
-    "image":"profilepic.jpg",
+    "image":"ProfilePic2.jpeg",
     "bio":"I am a web development engineer from bangalore and I use react and nodejs to develop web-pages & React-Native to develope mobile apps.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jyotiprakash526@gmail.com",
@@ -30,7 +30,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/",
+        "url":"https://www.linkedin.com/in/jyotiprakash-sethy-b89951132/",
         "className":"fa fa-linkedin"
       },
       {
@@ -42,6 +42,11 @@
         "name":"github",
         "url":"https://github.com/jyotiprakash111",
         "className":"fa fa-github"
+      },
+      {
+        "name":"whatsapp",
+        "url":"https://github.com/jyotiprakash111",
+        "className":"fa fa-airbnb" 
       }
     ]
   },
@@ -49,29 +54,29 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "school":"Biju Pattnaik University Of Technology",
+        "degree":"Master In Computer Aplications",
+        "graduated":"April 2019",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"Utkal University",
+        "degree":"Bachlor's of Computer Application",
+        "graduated":"June 2016",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
+        "company":"Saifarming",
         "title":"Application Developer",
-        "years":"December 2020 - February 2021",
+        "years":"July 2020 - February 2021",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "company":"Claribo",
         "title":"Application Developer",
-        "years":"March 2021 - June 2021",
+        "years":"February 2021 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],

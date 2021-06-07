@@ -610,6 +610,11 @@
 .fa-github-square:before {
   content: "\f092";
 }
+.fa-whatsapp-square:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f232";
+  font-weight: 400;
+}
 .fa-upload:before {
   content: "\f093";
 }
@@ -636,6 +641,11 @@
 }
 .fa-github:before {
   content: "\f09b";
+}
+.fa-whatsapp:before{
+  font-family: "Font Awesome 5 Brands";
+  content: "\f232";
+  font-weight: 400;
 }
 .fa-unlock:before {
   content: "\f09c";
@@ -951,6 +961,11 @@
 }
 .fa-github-alt:before {
   content: "\f113";
+}
+.fa-whatsapp-alt:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f232";
+  font-weight: 400;
 }
 .fa-folder-o:before {
   content: "\f114";
