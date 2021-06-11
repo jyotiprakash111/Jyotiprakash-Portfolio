@@ -24,6 +24,7 @@ class Contact extends Component {
 
           <div className='ten columns'>
             <p className='lead'></p>
+            <p className='lead'></p>
           </div>
         </div>
 
