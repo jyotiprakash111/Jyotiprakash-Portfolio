@@ -1259,5 +1259,5 @@ footer .social-links li:first-child {
    /* width: 65%; */
    border-radius: 5px;
    margin: auto;
-  width: 65%;
+  width: auto;
 }
