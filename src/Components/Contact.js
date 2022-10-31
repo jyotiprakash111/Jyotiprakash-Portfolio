@@ -28,7 +28,9 @@ class Contact extends Component {
         </div>
 
         <div className='row'>
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNVlPSk4iH_SRTiqdE6UBMAxjKBInlhLyFs2taqEjm9vXRTQ/viewform?embedded=true" width="640" height="836" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
           <div className='eight columns'>
+
             <form action='' method='post' id='contactForm' name='contactForm'>
               <fieldset>
                 <div>
@@ -111,7 +113,6 @@ class Contact extends Component {
                 <span>{phone}</span>
               </p>
             </div>
-
             <div className='widget widget_tweets'>
               <h4 className='widget-title'>Latest Tweets</h4>
               <ul id='twitter'>
