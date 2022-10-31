@@ -16,12 +16,12 @@
       "zip": "560037"
     },
     "website": "http://www.jyotiprakash.in",
-    "resumedownload":"http://www.jyotiprakash.in",
+    "resumedownload":"",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/jyotiprakash111",
-        "className":"fa fa-facebook"
+        "url":"",
+        "className":"fa fa-facebook" 
       },
       {
         "name":"twitter",
@@ -35,7 +35,7 @@
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/jyotiprakashhh",
+        "url":"https://www.instagram.com/jyotiprakasshh/",
         "className":"fa fa-instagram"
       },
       {
@@ -68,22 +68,34 @@
     ],
     "work":[
       {
+        "company":"Pinkline Cabs",
+        "title":"Application Developer",
+        "years":"October 2019 - February 2020",
+        "description":"Founded in 2019, Pinkline Cabs is one of the largest ride-sharing companies. Pinkline Cabs integrates city transportation for customers and driver-partners onto a mobile technology platform ensuring convenient, transparent, and quick service fulfilment."
+      },
+      {
         "company":"Saifarming",
         "title":"Application Developer",
         "years":"July 2020 - February 2021",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
+        "company":"Kinno Health",
+        "title":"Developer",
+        "years":"October 2020 - February 2021",
+        "description":"PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as “the capacity to perform the usual daily activities for a person's age and major social role”. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
+      },
+      {
         "company":"Claribo",
         "title":"Application Developer",
-        "years":"February 2021 - Present",
+        "years":"February 2021 - January 2022",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Pinkline Cabs",
-        "title":"Application Developer",
-        "years":"October 2020 - February 2021",
-        "description":"Founded in 2019, Pinkline Cabs is one of the largest ride-sharing companies. Pinkline Cabs integrates city transportation for customers and driver-partners onto a mobile technology platform ensuring convenient, transparent, and quick service fulfilment."
+        "company":"SABB Mobile (HSBC BANK)",
+        "title":"Application Engineer",
+        "years":"September 2021 - April 2022",
+        "description":"SABB RMB is the banking application of HSBC Bank. The mortgage module offers to its customers to take a loan for a particular amount on the basis of the customer’s salary and On the basis of private and govt employees. HSBC bank checks the customer’s eligibility criteria and then approves and rejects the application request."
       }
     ],
     "skills":[
