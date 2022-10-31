@@ -19,9 +19,9 @@
     "resumedownload":"",
     "social":[
       {
-        "name":"facebook",
-        "url":"",
-        "className":"fa fa-facebook" 
+        "__name__":"facebook", 
+        "__url__":"",
+        "__className__":"fa fa-facebook" 
       },
       {
         "name":"twitter",
