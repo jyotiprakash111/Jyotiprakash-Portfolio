@@ -12,7 +12,7 @@ class Header extends Component {
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
-            <a href={network.url} target="_blank">
+            <a href={network.url} target='_blank'>
               <i className={network.className}></i>
             </a>
           </li>
@@ -20,57 +20,71 @@ class Header extends Component {
       });
     }
 
+    let config = [
+      "color",
+      "ball",
+      "lines",
+      "thick",
+      "circle",
+      "cobweb",
+      "polygon",
+      "square",
+      "tadpole",
+      "fountain",
+      "random",
+    ];
+
     return (
-      <header id="home">
+      <header id='home'>
         <ParticlesBg
           color={["#130f40", "#535c68", "red", "white", "#f9ca24"]}
-          type=""
+          type={"random"}
           bg={true}
         />
-        <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+        <nav id='nav-wrap'>
+          <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
             Show navigation
           </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
+          <a className='mobile-btn' href='#home' title='Hide navigation'>
             Hide navigation
           </a>
 
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
+          <ul id='nav' className='nav'>
+            <li className='current'>
+              <a className='smoothscroll' href='#home'>
                 Home
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#about">
+              <a className='smoothscroll' href='#about'>
                 About
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className='smoothscroll' href='#resume'>
                 Resume
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <a className='smoothscroll' href='#portfolio'>
                 Works
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#contact">
+              <a className='smoothscroll' href='#contact'>
                 Contact
               </a>
             </li>
           </ul>
         </nav>
 
-        <div className="row banner">
-          <div className="banner-text">
-            <div className="container">
-              <h1 className="responsive-headline">I'm {name}</h1>
+        <div className='row banner'>
+          <div className='banner-text'>
+            <div className='container'>
+              <h1 className='responsive-headline'>I'm {name}</h1>
               <h3>{description}</h3>
               <hr />
-              <ul className="social">
+              <ul className='social'>
                 {/* <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
                <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a> */}
                 {networks}
@@ -79,9 +93,9 @@ class Header extends Component {
           </div>
         </div>
 
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+        <p className='scrolldown'>
+          <a className='smoothscroll' href='#about'>
+            <i className='icon-down-circle'></i>
           </a>
         </p>
       </header>

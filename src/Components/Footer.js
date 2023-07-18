@@ -19,14 +19,10 @@ class Footer extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">{networks}</ul>
-
             <ul className="copyright">
               <li>&copy; Copyright 2023 JPS</li>
               <li>
-                Designed by
-                <a title="Styleshout" href="https://twitter.com/Jyotiprakassh">
-                  Jyotiprakash
-                </a>
+                Designed & Developed by <a className="nameJps">Jyotiprakash</a>
               </li>
             </ul>
           </div>

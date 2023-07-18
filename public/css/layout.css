@@ -925,7 +925,7 @@ call-to-action .button {
    margin: 0 6px;
    display: inline-block;
    zoom: 1;
-   *display: inline;
+   display: inline;
 }
 
 .flex-control-paging li a {
@@ -1150,6 +1150,10 @@ footer a:visited {
 footer a:hover,
 footer a:focus {
    color: #fff;
+}
+
+#nameJps{
+   cursor: pointer 
 }
 
 /* copyright */
