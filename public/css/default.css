@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -613,6 +613,18 @@ input[type="checkbox"] { display: inline; }
 .row:after {
     clear: both;
 }
+
+.float-container {
+   /* border: 3px solid #fff; */
+   padding: 10px;
+}
+
+.float-child {
+   width: 50%;
+   float: right;
+   padding: 20px;
+   /* border: 2px solid red; */
+}  
 
 .column, .columns {
    position: relative;

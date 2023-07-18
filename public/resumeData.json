@@ -4,13 +4,13 @@
     "description":"I am a web development engineer and I use react and nodejs to develop web-pages & React-Native to develop mobile apps.",
     "image":"ProfilePic2.jpeg",
     "bio":"I am a web development engineer from bangalore and I use react and nodejs to develop web-pages & React-Native to develop mobile apps.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Contact Us",
     "email": "jyotiprakash526@gmail.com",
     "phone": "+917377000535",
     "github":"https://github.com/jyotiprakash111",
     "project":"https://github.com/jyotiprakash111",
     "address":{
-      "street":"E-Zone,Marathali",
+      "street":"SGR Dental Colleage Road,Marathali,Banglore",
       "city":"Bangalore",
       "state":"Karnataka",
       "zip": "560037"
@@ -51,7 +51,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"Biju Pattnaik University Of Technology",

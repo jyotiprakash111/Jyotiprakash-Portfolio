@@ -487,8 +487,8 @@ ul#nav li.current a {
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   /* padding-top: 90px; */
+   /* padding-bottom: 60px; */
 }
 
 #portfolio h1 {
