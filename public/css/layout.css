@@ -104,9 +104,32 @@ header .social li a {
    color: #fff;
 }
 
-header .social li a:hover {
-   color: #0762f9;
-}
+/* The following CSS rules will change the icon color on hover for each individual icon */
+
+header .social .fa-twitter:hover {
+   color: #0762f9; /* Change to the desired color for Twitter */
+ }
+ 
+ header .social .fa-facebook:hover {
+   color: #3b5998; /* Change to the desired color for Facebook */
+ }
+ 
+ header .social .fa-instagram:hover {
+   color: #e4405f; /* Change to the desired color for Instagram */
+ }
+
+ header .social .fa-linkedin:hover {
+   color: #19167f; /* Change to the desired color for Linkedin */
+ }
+ header .social .fa-github:hover {
+   color: #ff0303; /* Change to the desired color for Github */
+ }
+
+ header .social .fa-whatsapp:hover {
+   color: #03ff0b; /* Change to the desired color for Whatsapp */
+ }
+
+
 
 /* scrolldown link */
 header .scrolldown a {
@@ -961,7 +984,8 @@ call-to-action .button {
 #contact {
    background: #191919;
    padding-top: 96px;
-   padding-bottom: 102px;
+   padding-bottom: 20px;
+   padding-left: 20px;
    color: #636363;
 }
 
@@ -1124,7 +1148,7 @@ call-to-action .button {
 
 #twitter li b a {
    font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
+   color: #ff0385 !important;
    border: none;
 }
 
