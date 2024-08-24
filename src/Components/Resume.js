@@ -32,6 +32,13 @@ class Resume extends Component {
             <p className='info'>
               {work.title}
               <span>&bull;</span> <em className='date'>{work.years}</em>
+              {work.link !== "" && (
+                <div>
+                  <h1>
+                    <a href={work.link}>Link</a>
+                  </h1>
+                </div>
+              )}
             </p>
             <p>{work.description}</p>
           </div>

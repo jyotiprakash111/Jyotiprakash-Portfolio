@@ -40,9 +40,9 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
-    document.addEventListener('contextmenu', (e) => {
-      e.preventDefault();
-    });
+    // document.addEventListener('contextmenu', (e) => {
+    //   e.preventDefault();
+    // });
   }
 
 

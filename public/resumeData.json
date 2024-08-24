@@ -3,7 +3,7 @@
     "name":"Jyotiprakash",
     "description":"Hi, I am a web/mobile app engineer and I use react and nodejs to develop web-pages & React-Native to develop mobile apps.",
     "image":"ProfilePic2.jpeg",
-    "bio":"A skilled React & React Native developer with 3.6 years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
+    "bio":"A skilled React & React Native developer with 4.6 years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
     "contactmessage":"Contact Us",
     "email": "jyotiprakash526@gmail.com",
     "phone": "+917377000535",
@@ -68,19 +68,37 @@
     ],
     "work":[
       {
+        "company":"Jio Things Business(Jio Platforms)",
+        "link":"https://play.google.com/store/apps/details?id=com.jio.telematics",
+        "title":"Application Engineer",
+        "years":"March 2023 - Present",
+        "description":"Jio Things Business App supports various Asset Categories (Smart Assets) based out of Industrial Internet of Things"
+      },
+      {
+        "company":"SABB Mobile (HSBC BANK)",
+        "link":"https://play.google.com/store/apps/details?id=in.hsbc.hsbcindia&pli=1",
+        "link2":"https://apps.apple.com/us/app/hsbc-india/id1449573898",
+        "title":"Application Engineer",
+        "years":"September 2021 - April 2022",
+        "description":"SABB RMB is the banking application of HSBC Bank. The mortgage module offers to its customers to take a loan for a particular amount on the basis of the customer’s salary and On the basis of private and govt employees. HSBC bank checks the customer’s eligibility criteria and then approves and rejects the application request."
+      },
+      {
         "company":"Pinkline Cabs",
+        "link":"",
         "title":"Application Developer",
         "years":"October 2019 - February 2020",
         "description":"Founded in 2019, Pinkline Cabs is one of the largest ride-sharing companies. Pinkline Cabs integrates city transportation for customers and driver-partners onto a mobile technology platform ensuring convenient, transparent, and quick service fulfilment."
       },
       {
         "company":"Saifarming",
+        "link":"",
         "title":"Application Developer",
         "years":"July 2020 - February 2021",
         "description":"Sai Farmiculture Pvt Ltd in Shivakote, Bangalore is a top player in the category Agricultural Product Wholesalers in the Bangalore. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Bangalore. Over the course of its journey, this business has established a firm foothold in it’s industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Bangalore, this establishment occupies a prominent location in Shivakote. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is known to provide top service in the following categories: Fruit Retailers, Agricultural Product Wholesalers"
       },
       {
         "company":"Kinno Health",
+        "link":"",
         "title":"Developer",
         "years":"October 2020 - February 2021",
         "description":"PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as “the capacity to perform the usual daily activities for a person's age and major social role”. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
@@ -92,16 +110,12 @@
         "// years":"February 2021 - January 2022",
         "// description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "company":"Claribo",
+        "link":"",
         "title":"Application Developer",
         "years":"February 2021 - January 2022",
         "description":""
-      },
-      {
-        "company":"SABB Mobile (HSBC BANK)",
-        "title":"Application Engineer",
-        "years":"September 2021 - April 2022",
-        "description":"SABB RMB is the banking application of HSBC Bank. The mortgage module offers to its customers to take a loan for a particular amount on the basis of the customer’s salary and On the basis of private and govt employees. HSBC bank checks the customer’s eligibility criteria and then approves and rejects the application request."
       }
+     
     ],
     "skills":[
       {
