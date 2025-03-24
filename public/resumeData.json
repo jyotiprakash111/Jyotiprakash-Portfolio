@@ -3,7 +3,7 @@
     "name":"Jyotiprakash",
     "description":"Hi, I am a web/mobile app engineer and I use react and nodejs to develop web-pages & React-Native to develop mobile apps.",
     "image":"ProfilePic2.jpeg",
-    "bio":"A skilled React & React Native developer with 4.6 years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
+    "bio":"A skilled Engineer with 5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
     "contactmessage":"Contact Us",
     "email": "jyotiprakash526@gmail.com",
     "phone": "+917377000535",
@@ -102,6 +102,13 @@
         "title":"Developer",
         "years":"October 2020 - February 2021",
         "description":"PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as “the capacity to perform the usual daily activities for a person's age and major social role”. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
+      },
+      {
+        "company":"Collab It Networks",
+        "link":"https://collaborationitnetworks.vercel.app/",
+        "title":"Developer",
+        "years":"December 2024 - March 2025",
+        "description":"Collaboration IT Networks (CIN) is an IT solutions provider, primary focus on Cisco Collaboration (Unified Communications) and Microsoft Teams Solutions including Direct Routing. At CIN our goal is to simplify the complex technology solutions. We aim to deploy UC solutions based on best practices and used case experience for maximum utilization of technology. We believe in working as an extension of our clients in order to deliver seamless services without process complications."
       },
       {
 
