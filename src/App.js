@@ -9,8 +9,9 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import { Analytics } from '@vercel/analytics/react';
-class App extends Component {
+import Chatbot from './Components/Chatbot';
 
+class App extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -55,6 +56,7 @@ class App extends Component {
         <Portfolio data={this.state.resumeData.portfolio}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
+        <Chatbot />
         <Analytics />
       </div>
     );

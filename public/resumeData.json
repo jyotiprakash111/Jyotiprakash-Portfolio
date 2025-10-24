@@ -1,183 +1,184 @@
 {
   "main": {
-    "name":"Jyotiprakash",
-    "description":"Hi, I am a web/mobile app engineer and I use react and nodejs to develop web-pages & React-Native to develop mobile apps.",
-    "image":"ProfilePic2.jpeg",
-    "bio":"A skilled Engineer with 5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
-    "contactmessage":"Contact Us",
+    "name": "Jyotiprakash",
+    "description": "Hi, I am a fullstack  engineer and I use React/Nextjs and nodejs to develop web-pages & React-Native to develop mobile apps.",
+    "image": "ProfilePic2.jpeg",
+    "bio": "A skilled Engineer with 5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
+    "contactmessage": "Contact Us",
     "email": "jyotiprakash526@gmail.com",
     "phone": "+917377000535",
-    "github":"https://github.com/jyotiprakash111",
-    "project":"https://github.com/jyotiprakash111",
-    "address":{
-      "street":"SGR Dental Colleage Road,Marathali,Banglore",
-      "city":"Bangalore",
-      "state":"Karnataka",
+    "github": "https://github.com/jyotiprakash111",
+    "project": "https://github.com/jyotiprakash111",
+    "address": {
+      "street": "SGR Dental Colleage Road,Marathali,Banglore",
+      "city": "Bangalore",
+      "state": "Karnataka",
       "zip": "560037"
     },
     "website": "http://www.jyotiprakash.in",
-    "resumedownload":"",
-    "social":[
+    "resumedownload": "",
+    "social": [
       {
-        "__name__":"facebook", 
-        "__url__":"",
-        "__className__":"fa fa-facebook" 
+        "name": "x",
+        "url": "https://twitter.com/Jyotiprakassh",
+        "className": "fa-brands fa-x-twitter"
       },
       {
-        "name":"twitter",
-        "url":"https://twitter.com/Jyotiprakassh",
-        "className":"fa fa-twitter"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jyotiprakash-sethy-b89951132/",
+        "className": "fa-brands fa-linkedin"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/jyotiprakash-sethy-b89951132/",
-        "className":"fa fa-linkedin"
+        "name": "github",
+        "url": "https://github.com/jyotiprakash111",
+        "className": "fa-brands fa-github"
       },
       {
-        "name":"instagram",
-        "url":"https://www.instagram.com/jyotiprakasshh/",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/jyotiprakash111",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"whatsapp",
-        "url":"https://wa.link/nzj4jf",
-        "className":"fa fa-whatsapp aria-hidden=true"
+        "name": "whatsapp",
+        "url": "https://wa.link/nzj4jf",
+        "className": "fa-brands fa-whatsapp"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"",
-    "education":[
+  "resume": {
+    "skillmessage": "",
+    "education": [
       {
-        "school":"Biju Pattnaik University Of Technology",
-        "degree":"Master In Computer Aplications(MCA)",
-        "graduated":"May 2017 - April 2019",
-        "description":""
+        "school": "Biju Pattnaik University Of Technology",
+        "degree": "Master In Computer Aplications(MCA)",
+        "graduated": "May 2017 - April 2019",
+        "description": ""
       },
       {
-        "school":"Utkal University",
-        "degree":"Bachlor's of Computer Application(BCA)",
-        "graduated":"Aug 2013 -  June 2016",
-        "description":""
+        "school": "Utkal University",
+        "degree": "Bachlor's of Computer Application(BCA)",
+        "graduated": "Aug 2013 -  June 2016",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Jio Things Business(Jio Platforms)",
-        "link":"https://play.google.com/store/apps/details?id=com.jio.telematics",
-        "title":"Application Engineer",
-        "years":"March 2023 - Present",
-        "description":"Jio Things Business App supports various Asset Categories (Smart Assets) based out of Industrial Internet of Things"
+        "company": "Jio Things Business(Jio Platforms)",
+        "link": "https://play.google.com/store/apps/details?id=com.jio.telematics",
+        "title": "Application Engineer",
+        "years": "March 2023 - Present",
+        "description": "Jio Things Business App supports various Asset Categories (Smart Assets) based out of Industrial Internet of Things"
       },
       {
-        "company":"SABB Mobile (HSBC BANK)",
-        "link":"https://play.google.com/store/apps/details?id=in.hsbc.hsbcindia&pli=1",
-        "link2":"https://apps.apple.com/us/app/hsbc-india/id1449573898",
-        "title":"Application Engineer",
-        "years":"September 2021 - April 2022",
-        "description":"SABB RMB is the banking application of HSBC Bank. The mortgage module offers to its customers to take a loan for a particular amount on the basis of the customer’s salary and On the basis of private and govt employees. HSBC bank checks the customer’s eligibility criteria and then approves and rejects the application request."
+        "company": "SABB Mobile (HSBC BANK)",
+        "link": "https://play.google.com/store/search?q=sabb&c=apps",
+        "link2": "https://apps.apple.com/us/app/hsbc-india/id1449573898",
+        "title": "Application Engineer",
+        "years": "September 2021 - April 2022",
+        "description": "SABB RMB is the banking application of HSBC Bank. The mortgage module offers to its customers to take a loan for a particular amount on the basis of the customer’s salary and On the basis of private and govt employees. HSBC bank checks the customer’s eligibility criteria and then approves and rejects the application request."
       },
       {
-        "company":"Pinkline Cabs",
-        "link":"",
-        "title":"Application Developer",
-        "years":"October 2019 - February 2020",
-        "description":"Founded in 2019, Pinkline Cabs is one of the largest ride-sharing companies. Pinkline Cabs integrates city transportation for customers and driver-partners onto a mobile technology platform ensuring convenient, transparent, and quick service fulfilment."
+        "company": "Pinkline Cabs",
+        "link": "",
+        "title": "Application Developer",
+        "years": "October 2019 - February 2020",
+        "description": "Founded in 2019, Pinkline Cabs is one of the largest ride-sharing companies. Pinkline Cabs integrates city transportation for customers and driver-partners onto a mobile technology platform ensuring convenient, transparent, and quick service fulfilment."
       },
       {
-        "company":"Saifarming",
-        "link":"",
-        "title":"Application Developer",
-        "years":"July 2020 - February 2021",
-        "description":"Sai Farmiculture Pvt Ltd in Shivakote, Bangalore is a top player in the category Agricultural Product Wholesalers in the Bangalore. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Bangalore. Over the course of its journey, this business has established a firm foothold in it’s industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Bangalore, this establishment occupies a prominent location in Shivakote. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is known to provide top service in the following categories: Fruit Retailers, Agricultural Product Wholesalers"
+        "company": "Saifarming",
+        "link": "",
+        "title": "Application Developer",
+        "years": "July 2020 - February 2021",
+        "description": "Sai Farmiculture Pvt Ltd in Shivakote, Bangalore is a top player in the category Agricultural Product Wholesalers in the Bangalore. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Bangalore. Over the course of its journey, this business has established a firm foothold in it’s industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Bangalore, this establishment occupies a prominent location in Shivakote. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is known to provide top service in the following categories: Fruit Retailers, Agricultural Product Wholesalers"
       },
       {
-        "company":"Kinno Health",
-        "link":"",
-        "title":"Developer",
-        "years":"October 2020 - February 2021",
-        "description":"PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as “the capacity to perform the usual daily activities for a person's age and major social role”. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
+        "company": "Kinno Health",
+        "link": "",
+        "title": "Developer",
+        "years": "October 2020 - February 2021",
+        "description": "PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as “the capacity to perform the usual daily activities for a person's age and major social role”. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
       },
       {
-        "company":"Collab It Networks",
-        "link":"https://collaborationitnetworks.vercel.app/",
-        "title":"Developer",
-        "years":"December 2024 - March 2025",
-        "description":"Collaboration IT Networks (CIN) is an IT solutions provider, primary focus on Cisco Collaboration (Unified Communications) and Microsoft Teams Solutions including Direct Routing. At CIN our goal is to simplify the complex technology solutions. We aim to deploy UC solutions based on best practices and used case experience for maximum utilization of technology. We believe in working as an extension of our clients in order to deliver seamless services without process complications."
+        "company": "Collab It Networks",
+        "link": "https://collaborationitnetworks.vercel.app/",
+        "title": "Developer",
+        "years": "December 2024 - March 2025",
+        "description": "Collaboration IT Networks (CIN) is an IT solutions provider, primary focus on Cisco Collaboration (Unified Communications) and Microsoft Teams Solutions including Direct Routing. At CIN our goal is to simplify the complex technology solutions. We aim to deploy UC solutions based on best practices and used case experience for maximum utilization of technology. We believe in working as an extension of our clients in order to deliver seamless services without process complications."
       },
       {
+        "// company": "Claribo",
+        "// title": "Application Developer",
+        "// years": "February 2021 - January 2022",
+        "// description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "company": "Claribo",
+        "link": "",
+        "title": "Application Developer",
+        "years": "February 2021 - January 2022",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "React Native",
+        "level": "70%"
+      },
+      {
+        "name": "Javascript",
+        "level": "88%"
+      },
+      {
+        "name": "Typescript",
+        "level": "77%"
+      },
+      {
+        "name": "AWS",
+        "level": "30%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "Nodejs",
+        "level": "50%"
+      },
 
-        "// company":"Claribo",
-        "// title":"Application Developer",
-        "// years":"February 2021 - January 2022",
-        "// description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "company":"Claribo",
-        "link":"",
-        "title":"Application Developer",
-        "years":"February 2021 - January 2022",
-        "description":""
-      }
-     
-    ],
-    "skills":[
       {
-        "name":"ReactJs",
-        "level":"70%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"Nodejs",
-        "level":"50%"
-      },
-      {
-        "name":"React Native",
-        "level":"70%"
-      },
-      {
-        "name":"UI/UX",
-        "level":"70%"
+        "name": "UI/UX",
+        "level": "70%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
       }
     ]
   }
