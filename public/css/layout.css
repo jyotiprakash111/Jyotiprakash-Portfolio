@@ -57,7 +57,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
    text-align: center;
 }
 
@@ -308,7 +308,7 @@ ul#nav li.current a::before {
 
 #about p {
    line-height: 30px;
-   color: #ccc;
+   color: #00000;
 }
 
 #about .profile-pic {

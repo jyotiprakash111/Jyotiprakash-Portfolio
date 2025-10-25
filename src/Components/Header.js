@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ParticlesBg from "particles-bg";
+import "./Particles.css";
 
 const Header = ({ data }) => {
   const [activeSection, setActiveSection] = useState('home');
@@ -127,14 +128,16 @@ const Header = ({ data }) => {
   const randomType = particleTypes[Math.floor(Math.random() * particleTypes.length)];
 
   return (
-    <header id="home">
+    <header id="home" style={{ position: 'relative', minHeight: '100vh', overflow: 'hidden' }}>
+      {/* Particles Background - Always visible */}
       <ParticlesBg
-        color={["#130f40", "#535c68", "red", "white", "#f9ca24"]}
-        type= {randomType}
+        type="cobweb"
+        color="#ffffff"
+        num={60}
         bg={true}
       />
 
-      <nav id="nav-wrap">
+      <nav id="nav-wrap" style={{ position: 'relative', zIndex: 10 }}>
         <a 
           className="mobile-btn" 
           href="#nav-wrap" 
@@ -200,7 +203,7 @@ const Header = ({ data }) => {
         </ul>
       </nav>
 
-      <div className="row banner">
+      <div className="row banner" style={{ position: 'relative', zIndex: 5 }}>
         <div className="banner-text">
           <div className="container">
             <h1 className="responsive-headline">
@@ -215,7 +218,7 @@ const Header = ({ data }) => {
         </div>
       </div>
 
-      <p className="scrolldown">
+      <p className="scrolldown" style={{ position: 'relative', zIndex: 5 }}>
         <a className="smoothscroll" href="#about">
           <i className="icon-down-circle"></i>
         </a>

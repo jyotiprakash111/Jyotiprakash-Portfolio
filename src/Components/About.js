@@ -1,55 +1,132 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class About extends Component {
-  render() {
+const About = ({ data }) => {
+  if (!data) return null;
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
+  const {
+    name,
+    image,
+    bio,
+    address = {},
+    phone,
+    email,
+    resumedownload
+  } = data;
 
-    return (
-      <section id="about">
+  const profilepic = `images/${image}`;
+  const { street, city, state, zip } = address;
+
+  return (
+    <section id="about">
       <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
-
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
-               {/* <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} target="/blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div> */}
+        <div className="three columns">
+          <div className="profile-pic-container">
+            <img 
+              className="profile-pic" 
+              src={profilepic} 
+              alt={`${name || 'Jyotiprakash'} Profile Picture`}
+              loading="lazy"
+            />
+            <div className="profile-overlay">
+              <div className="overlay-content">
+                <h3>{name || 'Jyotiprakash'}</h3>
+                <p>Full Stack Developer</p>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
+        
+        <div className="nine columns main-col">
+          <h2>About Me</h2>
+          <div className="bio-content">
+            <p>{bio}</p>
+            
+            {/* Skills highlight */}
+            <div className="skills-highlight">
+              <h4>What I Do</h4>
+              <div className="skill-tags">
+                <span className="skill-tag">React Development</span>
+                <span className="skill-tag">Mobile Apps</span>
+                <span className="skill-tag">JavaScript/TypeScript</span>
+                <span className="skill-tag">Node.js</span>
+                <span className="skill-tag">UI/UX Design</span>
+              </div>
+            </div>
+          </div>
 
-   </section>
-    );
-  }
-}
+          <div className="row contact-row">
+            <div className="eight columns contact-details">
+              <h2>Contact Details</h2>
+              <div className="contact-info">
+                <div className="contact-item">
+                  <i className="fa fa-user"></i>
+                  <span>{name || 'Jyotiprakash'}</span>
+                </div>
+                {street && (
+                  <div className="contact-item">
+                    <i className="fa fa-map-marker"></i>
+                    <span>
+                      {street}<br />
+                      {city} {state}, {zip}
+                    </span>
+                  </div>
+                )}
+                {phone && (
+                  <div className="contact-item">
+                    <i className="fa fa-phone"></i>
+                    <span>{phone}</span>
+                  </div>
+                )}
+                {email && (
+                  <div className="contact-item">
+                    <i className="fa fa-envelope"></i>
+                    <span>{email}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+            
+            <div className="four columns download">
+              <h2>Get My Resume</h2>
+              <p>Download my resume to learn more about my experience and skills.</p>
+              {resumedownload ? (
+                <a 
+                  href={resumedownload} 
+                  className="button resume-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-download"></i>
+                  Download Resume
+                </a>
+              ) : (
+                <button className="button resume-btn disabled" disabled>
+                  <i className="fa fa-file-pdf-o"></i>
+                  Resume Coming Soon
+                </button>
+              )}
+              
+              {/* Quick stats */}
+              <div className="quick-stats">
+                <div className="stat">
+                  <span className="stat-number">5+</span>
+                  <span className="stat-label">Years Experience</span>
+                </div>
+                <div className="stat">
+                  <span className="stat-number">20+</span>
+                  <span className="stat-label">Projects Completed</span>
+                </div>
+                <div className="stat">
+                  <span className="stat-number">10+</span>
+                  <span className="stat-label">Technologies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default About;

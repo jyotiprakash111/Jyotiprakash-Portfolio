@@ -1,60 +1,47 @@
 import React from "react";
+import "./Contact.css";
 
 const Contact = ({ data }) => {
   if (!data) return null;
 
   const { name, address, phone, email, contactmessage } = data;
-  const { street, city, state, zip } = address;
+  const { city, state } = address;
 
   return (
-    <section id="contact">
-      <div className="widget widget_contact">
-        <h4>Address and Phone</h4>
-        <p className="address">
-          {name}
-          <br />
-          {street} <br />
-          {city}, {state} {zip}
-          <br />
-          <span>{phone}</span>
-        </p>
-      </div>
-
-      <div className="float-container">
-        <div className="eight row">
-          <div id="message-warning"> Error boy</div>
-          <div id="message-success">
-            <i className="fa fa-check"></i> Your message was sent, thank you!
-            <br />
-          </div>
+    <section id="contact" className="contact-section">
+      <div className="contact-container">
+        <div className="contact-header">
+          <h2>Get In Touch</h2>
+          <p>{contactmessage || "Let's discuss your next project"}</p>
         </div>
 
-        <div className="widget widget_tweets">
-          <h4 className="widget-title">Latest Tweets</h4>
-          <ul id="twitter">
-            <li>
-              <span>
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                bibendum auctor, nisi elit consequat ipsum
-                <a href="#">http://t.co/CGIrdxIlI3</a>
-              </span>
-              <b>
-                <a href="#">2 Days Ago</a>
-              </b>
-            </li>
-            <li>
-              <span>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi
-                <a href="#">http://t.co/CGIrdxIlI3</a>
-              </span>
-              <b>
-                <a href="#">3 Days Ago</a>
-              </b>
-            </li>
-          </ul>
+        <div className="contact-content">
+          {/* Contact Info */}
+          <div className="contact-info">
+            <div className="contact-item">
+              <i className="fa fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href={`mailto:${email}`}>{email}</a>
+              </div>
+            </div>
+            
+            <div className="contact-item">
+              <i className="fa fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <a href={`tel:${phone}`}>{phone}</a>
+              </div>
+            </div>
+            
+            <div className="contact-item">
+              <i className="fa fa-map-marker"></i>
+              <div>
+                <h4>Location</h4>
+                <span>{city}, {state}</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

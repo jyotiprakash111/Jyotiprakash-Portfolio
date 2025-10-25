@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Jyotiprakash",
-    "description": "Hi, I am a fullstack  engineer and I use React/Nextjs and nodejs to develop web-pages & React-Native to develop mobile apps.",
+    "description": "I am a fullstack  engineer and I use React/Nextjs and nodejs to develop web-pages & React-Native to develop mobile apps.",
     "image": "ProfilePic2.jpeg",
     "bio": "A skilled Engineer with 5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
     "contactmessage": "Contact Us",
@@ -140,6 +140,14 @@
       {
         "name": "Nodejs",
         "level": "50%"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
       },
 
       {
