@@ -88,7 +88,7 @@ const Footer = ({ data }) => {
 
             {/* Services */}
             <div className="footer-column">
-              <h4>Services</h4>
+              <h4>Expert In</h4>
               <ul className="footer-links">
                 <li><span className="service-item">Web Development</span></li>
                 <li><span className="service-item">Mobile Apps</span></li>

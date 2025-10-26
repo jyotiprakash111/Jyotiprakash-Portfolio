@@ -17,33 +17,36 @@ const About = ({ data }) => {
   const { street, city, state, zip } = address;
 
   return (
-    <section id="about">
-      <div className="row">
-        <div className="three columns">
-          <div className="profile-pic-container">
-            <img 
-              className="profile-pic" 
-              src={profilepic} 
-              alt={`${name || 'Jyotiprakash'} Profile Picture`}
-              loading="lazy"
-            />
-            <div className="profile-overlay">
-              <div className="overlay-content">
-                <h3>{name || 'Jyotiprakash'}</h3>
-                <p>Full Stack Developer</p>
+    <section id="about" className="about-section">
+      <div className="about-container">
+        
+        {/* Header Section */}
+        <div className="about-header">
+          <div className="profile-section">
+            <div className="profile-pic-container">
+              <img 
+                className="profile-pic" 
+                src={profilepic} 
+                alt={`${name || 'Jyotiprakash'} Profile Picture`}
+                loading="lazy"
+              />
+              <div className="profile-overlay">
+                <div className="overlay-content">
+                  <h3>{name || 'Jyotiprakash'}</h3>
+                  <p></p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div className="nine columns main-col">
-          <h2>About Me</h2>
-          <div className="bio-content">
-            <p>{bio}</p>
+          
+          <div className="intro-section">
+            <h1 className="section-title">About Me</h1>
+            <div className="title-decoration"></div>
+            <p className="bio-text">{bio}</p>
             
-            {/* Skills highlight */}
-            <div className="skills-highlight">
-              <h4>What I Do</h4>
+            {/* Skills Tags */}
+            <div className="skills-container">
+              <h3 className='skills-title'>What I Do</h3>
               <div className="skill-tags">
                 <span className="skill-tag">React Development</span>
                 <span className="skill-tag">Mobile Apps</span>
@@ -53,46 +56,99 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="row contact-row">
-            <div className="eight columns contact-details">
-              <h2>Contact Details</h2>
-              <div className="contact-info">
-                <div className="contact-item">
+        {/* Main Content Grid */}
+        <div className="content-grid">
+          
+          {/* Contact Information Card */}
+          <div className="info-card contact-card">
+            <div className="card-header">
+              <h3>Contact Information</h3>
+              <div className="header-line"></div>
+            </div>
+            <div className="contact-items">
+              <div className="contact-item">
+             
                   <i className="fa fa-user"></i>
-                  <span>{name || 'Jyotiprakash'}</span>
+             
+                <div className="contact-details">
+                  <span className="contact-label">Name</span>
+                  <span className="contact-value">{name || 'Jyotiprakash'}</span>
                 </div>
-                {street && (
-                  <div className="contact-item">
+              </div>
+              
+              {street && (
+                <div className="contact-item">
+               
                     <i className="fa fa-map-marker"></i>
-                    <span>
+                  
+                  <div className="contact-details">
+                    <span className="contact-label">Location</span>
+                    <span className="contact-value">
                       {street}<br />
                       {city} {state}, {zip}
                     </span>
                   </div>
-                )}
-                {phone && (
-                  <div className="contact-item">
+                </div>
+              )}
+              
+              {phone && (
+                <div className="contact-item">
+                
                     <i className="fa fa-phone"></i>
-                    <span>{phone}</span>
+                  
+                  <div className="contact-details">
+                    <span className="contact-label">Phone</span>
+                    <span className="contact-value">{phone}</span>
                   </div>
-                )}
-                {email && (
-                  <div className="contact-item">
+                </div>
+              )}
+              
+              {email && (
+                <div className="contact-item">
+                 
                     <i className="fa fa-envelope"></i>
-                    <span>{email}</span>
+                  
+                  <div className="contact-details">
+                    <span className="contact-label">Email</span>
+                    <span className="contact-value">{email}</span>
                   </div>
-                )}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Experience & Resume Card */}
+          <div className="info-card resume-card">
+            <div className="card-header">
+              <h3>Professional Experience</h3>
+              <div className="header-line"></div>
+            </div>
+            
+            {/* Quick Stats */}
+            <div className="stats-grid">
+              <div className="stat-item">
+                <span className="stat-number">5+</span>
+                <span className="stat-label">Years Experience</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-number">20+</span>
+                <span className="stat-label">Projects Completed</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-number">10+</span>
+                <span className="stat-label">Technologies</span>
               </div>
             </div>
             
-            <div className="four columns download">
-              <h2>Get My Resume</h2>
+            {/* Resume Download */}
+            <div className="resume-section">
               <p>Download my resume to learn more about my experience and skills.</p>
               {resumedownload ? (
                 <a 
                   href={resumedownload} 
-                  className="button resume-btn"
+                  className="resume-btn primary-btn"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -100,29 +156,14 @@ const About = ({ data }) => {
                   Download Resume
                 </a>
               ) : (
-                <button className="button resume-btn disabled" disabled>
+                <button className="resume-btn disabled-btn" disabled>
                   <i className="fa fa-file-pdf-o"></i>
                   Resume Coming Soon
                 </button>
               )}
-              
-              {/* Quick stats */}
-              <div className="quick-stats">
-                <div className="stat">
-                  <span className="stat-number">5+</span>
-                  <span className="stat-label">Years Experience</span>
-                </div>
-                <div className="stat">
-                  <span className="stat-number">20+</span>
-                  <span className="stat-label">Projects Completed</span>
-                </div>
-                <div className="stat">
-                  <span className="stat-number">10+</span>
-                  <span className="stat-label">Technologies</span>
-                </div>
-              </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

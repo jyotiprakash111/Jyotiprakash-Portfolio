@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
 const Contact = ({ data }) => {
@@ -21,7 +21,7 @@ const Contact = ({ data }) => {
             <div className="contact-item">
               <i className="fa fa-envelope"></i>
               <div>
-                <h4>Email</h4>
+                <h4 className="text-header">Email</h4>
                 <a href={`mailto:${email}`}>{email}</a>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Contact = ({ data }) => {
             <div className="contact-item">
               <i className="fa fa-phone"></i>
               <div>
-                <h4>Phone</h4>
+                <h4 className="text-header">Phone</h4>
                 <a href={`tel:${phone}`}>{phone}</a>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Contact = ({ data }) => {
             <div className="contact-item">
               <i className="fa fa-map-marker"></i>
               <div>
-                <h4>Location</h4>
+                <h4 className="text-header">Location</h4>
                 <span>{city}, {state}</span>
               </div>
             </div>
