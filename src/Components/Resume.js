@@ -20,7 +20,7 @@ const Resume = ({ data }) => {
 
   // Skill color mapping for consistency
   const skillColors = {
-    'ReactJs': '#61DAFB',
+    'Next.js': '#000000',
     'React Native': '#61DAFB',
     'Javascript': '#F7DF1E',
     'Typescript': '#3178C6',
@@ -186,7 +186,7 @@ const Resume = ({ data }) => {
                 <h4>Frontend Development</h4>
                 <div className="skills-grid">
                   {skills.filter(skill => 
-                    ['ReactJs', 'Javascript', 'Typescript', 'CSS', 'UI/UX'].includes(skill.name)
+                    ['Next.js', 'Javascript', 'Typescript', 'CSS', 'UI/UX'].includes(skill.name)
                   ).map((skill) => (
                     <div key={skill.name} className="skill-item">
                       <div className="skill-header">
@@ -237,7 +237,7 @@ const Resume = ({ data }) => {
             <div className="skills-summary">
               <div className="skill-highlight">
                 <i className="fa fa-star"></i>
-                <span>5+ Years Experience</span>
+                <span>6.5+ Years Experience</span>
               </div>
               <div className="skill-highlight">
                 <i className="fa fa-code"></i>

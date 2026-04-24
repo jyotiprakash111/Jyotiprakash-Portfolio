@@ -1,0 +1,73 @@
+/* Header and Particles Styling */
+header#home {
+  position: relative !important;
+  background: linear-gradient(135deg, #130f40 0%, #0762f9 100%) !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Force particles to be visible */
+header#home canvas {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1 !important;
+  opacity: 0.8 !important;
+  pointer-events: none !important;
+}
+
+/* Ensure particles container is properly positioned */
+header#home > div[class*="react-particles"] {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1 !important;
+}
+
+/* Navigation should be above particles */
+#nav-wrap {
+  position: fixed !important;
+  z-index: 999 !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Banner content above particles */
+.banner,
+.banner-text,
+.container {
+  position: relative !important;
+  z-index: 5 !important;
+}
+
+/* Text styling for better visibility over particles */
+.responsive-headline {
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) !important;
+  position: relative !important;
+  z-index: 6 !important;
+}
+
+.banner-text h3 {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+  position: relative !important;
+  z-index: 6 !important;
+}
+
+/* Social icons above particles */
+ul.social {
+  position: relative !important;
+  z-index: 6 !important;
+}
+
+/* Scrolldown button above particles */
+.scrolldown {
+  position: relative !important;
+  z-index: 6 !important;
+}

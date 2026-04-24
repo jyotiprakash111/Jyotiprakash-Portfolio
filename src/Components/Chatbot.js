@@ -36,11 +36,11 @@ const Chatbot = () => {
     }
     
     if (input.includes('experience') || input.includes('work')) {
-      return "Jyotiprakash has 5+ years of experience as a web/mobile app engineer. He has worked at companies like Jio Platforms, HSBC Bank, and others. He specializes in React, React Native, and Node.js development.";
+      return "Jyotiprakash has 6.5+ years of experience as a web/mobile app engineer. He has worked at companies like Jio Platforms, HSBC Bank, and others. He specializes in React, React Native, and Node.js development.";
     }
     
     if (input.includes('skills') || input.includes('technology') || input.includes('tech')) {
-      return "His key skills include ReactJs (80%), React Native (70%), JavaScript (88%), TypeScript (77%), CSS (90%), Node.js (50%), AWS (30%), and UI/UX (70%). He's passionate about creating dynamic and interactive user interfaces.";
+      return "His key skills include Next.js (80%), React Native (70%), JavaScript (88%), TypeScript (77%), CSS (90%), Node.js (50%), AWS (30%), and UI/UX (70%). He's passionate about creating dynamic and interactive user interfaces.";
     }
     
     if (input.includes('education') || input.includes('study') || input.includes('degree')) {
@@ -64,7 +64,7 @@ const Chatbot = () => {
     }
     
     if (input.includes('tell me about jyoti') || input.includes('about jyoti') || input.includes('who is jyoti')) {
-      return "Jyotiprakash Sethy is a passionate web and mobile app engineer with 5+ years of experience. He's currently working at Jio Platforms on IoT applications and has previously worked at HSBC Bank. He specializes in React, React Native, JavaScript, and creating dynamic user interfaces. He holds an MCA degree and is based in Bangalore, Karnataka.";
+      return "Jyotiprakash Sethy is a passionate web and mobile app engineer with 6.5+ years of experience. He's currently working at Jio Platforms on IoT applications and has previously worked at HSBC Bank. He specializes in React, React Native, JavaScript, and creating dynamic user interfaces. He holds an MCA degree and is based in Bangalore, Karnataka.";
     }
     
     return "I'm here to help you learn about Jyotiprakash's professional background. You can ask me about his experience, skills, education, projects, or how to contact him!";
@@ -120,7 +120,7 @@ const Chatbot = () => {
         </div>
       )}
 
-      {/* Chatbot Container */}
+      {/* Chatbot Container — hidden
       {showChatbot && (
         <div className="chatbot-container">
           <div className="chat-header">
@@ -159,6 +159,7 @@ const Chatbot = () => {
           </div>
         </div>
       )}
+      */}
     </>
   );
 };

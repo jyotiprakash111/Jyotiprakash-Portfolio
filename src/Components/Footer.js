@@ -64,7 +64,7 @@ const Footer = ({ data }) => {
               </p>
               <div className="footer-stats">
                 <div className="stat-item">
-                  <span className="stat-number">5+</span>
+                  <span className="stat-number">6.5+</span>
                   <span className="stat-label">Years Experience</span>
                 </div>
                 <div className="stat-item">
@@ -132,10 +132,8 @@ const Footer = ({ data }) => {
             <div className="footer-tech">
               <span>Built with</span>
               <div className="tech-stack">
-                <span className="tech-item">React</span>
-                <span className="tech-item">JavaScript</span>
-                <span className="tech-item">CSS3</span>
-                <span className="tech-item">HTML5</span>
+                <span className="tech-item">Next.js</span>
+                <span className="tech-item">Tailwind CSS</span>
               </div>
             </div>
           </div>

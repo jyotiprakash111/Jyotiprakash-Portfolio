@@ -207,7 +207,7 @@ const Header = ({ data }) => {
         <div className="banner-text">
           <div className="container">
             <h1 className="responsive-headline">
-              I'm {name || "Jyotiprakash"}
+              Hey I'm {name || "Jyotiprakash"}
             </h1>
             <h3>{description || "Web Developer & Mobile App Engineer"}</h3>
             <hr />

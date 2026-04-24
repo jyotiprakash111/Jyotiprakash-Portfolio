@@ -3,7 +3,7 @@
     "name": "Jyotiprakash",
     "description": "I am a fullstack  engineer and I use React/Nextjs and nodejs to develop web-pages & React-Native to develop mobile apps.",
     "image": "ProfilePic2.jpeg",
-    "bio": "A skilled Engineer with 5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
+    "bio": "A skilled Engineer with 6.5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
     "contactmessage": "Contact Us",
     "email": "jyotiprakash526@gmail.com",
     "phone": "+917377000535",
@@ -62,7 +62,7 @@
         "link": "https://play.google.com/store/apps/details?id=com.jio.telematics",
         "title": "Application Engineer",
         "years": "March 2023 - Present",
-        "description": "Jio Things Business App supports various Asset Categories (Smart Assets) based out of Industrial Internet of Things"
+        "description": "Implemented multi-auth flow for the app with JWT authentication and built map functionality displaying live IoT device details on the map using real-time device coordinates."
       },
       {
         "company": "The Saudi Awwal Bank",
@@ -70,35 +70,35 @@
         "link2": "https://apps.apple.com/us/app/hsbc-india/id1449573898",
         "title": "Application Engineer",
         "years": "September 2021 - April 2022",
-        "description": "SABB RMB is the banking application of HSBC Bank. The mortgage module offers to its customers to take a loan for a particular amount on the basis of the customer’s salary and On the basis of private and govt employees. HSBC bank checks the customer’s eligibility criteria and then approves and rejects the application request."
+        "description": "Designed the architecture of the mortgage module with a multi-step form flow, implemented core business logic for loan eligibility, salary validation, and application approval/rejection workflows. Integrated i18n internationalization across platforms, built reusable UI components, and carried out code optimization to improve performance and maintainability."
       },
       {
         "company": "Pinkline Cabs",
         "link": "",
         "title": "Application Developer",
         "years": "October 2019 - February 2020",
-        "description": "Founded in 2019, Pinkline Cabs is one of the largest ride-sharing companies. Pinkline Cabs integrates city transportation for customers and driver-partners onto a mobile technology platform ensuring convenient, transparent, and quick service fulfilment."
+        "description": "Designed and built the entire mobile app and admin panel from scratch, developed and integrated REST APIs, and implemented payment gateway integrations to enable seamless in-app transactions for customers and driver-partners across the platform."
       },
       {
         "company": "Saifarming",
         "link": "",
         "title": "Application Developer",
         "years": "July 2020 - February 2021",
-        "description": "Sai Farmiculture Pvt Ltd in Shivakote, Bangalore is a top player in the category Agricultural Product Wholesalers in the Bangalore. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Bangalore. Over the course of its journey, this business has established a firm foothold in it’s industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Bangalore, this establishment occupies a prominent location in Shivakote. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is known to provide top service in the following categories: Fruit Retailers, Agricultural Product Wholesalers"
+        "description": "Designed and developed multi-user authentication using Firebase (OTP-based login and Google Sign-In), implemented core business logic, and built scalable REST APIs to support end-to-end app functionality. Designed and structured the backend architecture using Node.js for scalability and maintainability. Integrated third-party services (payments, notifications, external APIs). Implemented secure role-based access control (RBAC) for different user types. Optimized API performance and reduced response times through efficient querying and caching strategies. Handled real-time data updates and event-driven flows. Built and optimized database schemas (Firestore/SQL) for performance and scalability. Implemented error handling, logging, and monitoring for production stability. Managed deployment workflows and environment configurations. Collaborated on UI/UX improvements to ensure smooth frontend-backend interaction. Debugged and resolved complex production issues across the system."
       },
       {
         "company": "Kinno Health",
         "link": "",
         "title": "Developer",
         "years": "October 2020 - February 2021",
-        "description": "PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as “the capacity to perform the usual daily activities for a person's age and major social role”. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
+        "description": "PROTIA measures HRQOL (Health- Related Quality of Life) which is the impact of disease and treatment on the lives of patients and is defined as \u201cthe capacity to perform the usual daily activities for a person's age and major social role\u201d. PROTIA measures non- Adherence of chronic patients, modifies medication-taking behaviour and improves health literacy and self-management."
       },
       {
         "company": "Collab It Networks",
         "link": "https://collaborationitnetworks.vercel.app/",
         "title": "Developer",
         "years": "December 2024 - March 2025",
-        "description": "Collaboration IT Networks (CIN) is an IT solutions provider, primary focus on Cisco Collaboration (Unified Communications) and Microsoft Teams Solutions including Direct Routing. At CIN our goal is to simplify the complex technology solutions. We aim to deploy UC solutions based on best practices and used case experience for maximum utilization of technology. We believe in working as an extension of our clients in order to deliver seamless services without process complications."
+        "description": "Developed the complete UI for Collaboration IT Networks from scratch and deployed the full web application. Implemented web security improvements, integrated Firebase for contact and inquiry handling, and set up the inquiry flow so admin receives email notifications for submitted requests. Focused on delivering a clean, responsive, and production-ready experience across the platform."
       },
       {
         "// company": "Claribo",
@@ -114,7 +114,7 @@
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "Next.js",
         "level": "80%"
       },
       {
@@ -149,7 +149,6 @@
         "name": "Git",
         "level": "90%"
       },
-
       {
         "name": "UI/UX",
         "level": "70%"
@@ -157,37 +156,6 @@
     ]
   },
   "portfolio": {
-    "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
-      }
-    ]
+    "projects": []
   }
 }

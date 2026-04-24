@@ -48,11 +48,15 @@ const About = ({ data }) => {
             <div className="skills-container">
               <h3 className='skills-title'>What I Do</h3>
               <div className="skill-tags">
-                <span className="skill-tag">React Development</span>
-                <span className="skill-tag">Mobile Apps</span>
-                <span className="skill-tag">JavaScript/TypeScript</span>
+                <span className="skill-tag">React</span>
+                <span className="skill-tag">React Native</span>
+                <span className="skill-tag">Next.js</span>
                 <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">UI/UX Design</span>
+                <span className="skill-tag">NoSQL</span>
+                <span className="skill-tag">AWS</span>
+                <span className="skill-tag">GCP</span>
+                <span className="skill-tag">Git</span>
+                <span className="skill-tag">CI/CD</span>
               </div>
             </div>
           </div>
@@ -129,7 +133,7 @@ const About = ({ data }) => {
             {/* Quick Stats */}
             <div className="stats-grid">
               <div className="stat-item">
-                <span className="stat-number">5+</span>
+                <span className="stat-number">6.5+</span>
                 <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat-item">
