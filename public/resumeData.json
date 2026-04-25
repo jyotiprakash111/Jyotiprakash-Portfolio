@@ -5,8 +5,8 @@
     "image": "ProfilePic2.jpeg",
     "bio": "A skilled Engineer with 6.5+ years of experience, I have a proven track record of delivering high-quality and performant web applications. My expertise lies in creating dynamic and interactive user interfaces using React and other modern front-end technologies.With a strong foundation in JavaScript and TypeScript, I am well-versed in writing clean and maintainable code, ensuring the scalability and longevity of the projects I work on. I have successfully implemented state management solutions like Redux and MobX to efficiently handle complex application data, resulting in smooth user experiences.",
     "contactmessage": "Contact Us",
-    "email": "jyotiprakash526@gmail.com",
-    "phone": "+917377000535",
+    "email": "",
+    "phone": "",
     "github": "https://github.com/jyotiprakash111",
     "project": "https://github.com/jyotiprakash111",
     "address": {
@@ -57,6 +57,13 @@
       }
     ],
     "work": [
+      {
+        "company": "Room Spa",
+        "link": "",
+        "title": "SDE -2",
+        "years": "Sept 2025 - Jan 2026",
+        "description": "Room Spa Mobile App (iOS & Android)\n\nDeveloped a full-featured on-demand spa service mobile application from scratch, covering both customer and therapist workflows across iOS and Android platforms.\n\nBuilt end-to-end architecture including booking system, real-time request handling, and user-therapist interaction flows\nImplemented therapist discovery and booking with dynamic availability and request acceptance/rejection system\nIntegrated Google Maps APIs (Directions API & Distance Matrix API) for route optimization and accurate distance/time estimation\nDeveloped live tracking functionality using WebSockets (Socket-based communication) for real-time therapist location updates\nEnabled seamless navigation for therapists to reach user locations with turn-by-turn directions\nDesigned scalable backend interaction with efficient state management and real-time updates\nFocused on performance, responsiveness, and smooth cross-platform user experience using React Native"
+      },
       {
         "company": "Jio Things Business(Jio Platforms)",
         "link": "https://play.google.com/store/apps/details?id=com.jio.telematics",
